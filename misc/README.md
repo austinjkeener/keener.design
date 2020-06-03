@@ -13,7 +13,7 @@ link: https://austingraphicandweb.github.io/semantic-html-friday-work/
 ![](/assets/images/index-screenshot.png)
 
 ## Usage
-<i>Accessability while trying to use the internet is important. Some are used to being able to cruise the internet without help while others are not. This website is made to take into consideration those who need accessability help while browsing the website. While creating the website, semantic coding is used to help make the html and css more readable on the front end for those using accessability software.<i>
+<i>My portfolio is important. It is what shows others that I know how to do what I have become experienced with. I have a degree in Graphic and Web Design and that is what is being show in the portfolio that I have. In the website I have used semantic elements as well as bootstrap to show that I have the ability to build a more simple webiste that can be viewed by others.<i>
 <hr>
 
 ## Licensing
