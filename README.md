@@ -10,7 +10,10 @@ link: https://austingraphicandweb.github.io/semantic-html-friday-work/
 
 ## Screenshot
 
-![](/assets/images/index-screenshot.png)
+![](/misc/assets/images/screenshot.png)
+
+<hr>
+
 
 ## Usage
 <i>My portfolio is important. It is what shows others that I know how to do what I have become experienced with. I have a degree in Graphic and Web Design and that is what is being show in the portfolio that I have. In the website I have used semantic elements as well as bootstrap to show that I have the ability to build a more simple webiste that can be viewed by others.<i>
