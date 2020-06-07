@@ -10,7 +10,7 @@ link: https://austingraphicandweb.github.io/semantic-html-friday-work/
 
 ## Screenshot
 
-![](/misc/assets/images/screenshot.png)
+![screenshot](misc/assets/Images/screenshot.png)
 
 <hr>
 
