@@ -1,22 +1,22 @@
-# Semantic-HTML-Friday-Homework
+# Mobile Responsive Portfolio
 By Austin Keener <br>
 <i>These are the terms of installation for this code.<i>
 ## Table of Contents
 ### 1. Usage <br>
 ### 2. License<br>
 
-link: https://austingraphicandweb.github.io/semantic-html-friday-work/
+link: https://austingraphicandweb.github.io/mobile-responsive-portfolio/
 <hr>
 
 ## Screenshot
 
-![screenshot](misc/assets/Images/screenshot.png)
+![screenshot](./misc/screen-shot.png)
 
 <hr>
 
 
 ## Usage
-<i>My portfolio is important. It is what shows others that I know how to do what I have become experienced with. I have a degree in Graphic and Web Design and that is what is being show in the portfolio that I have. In the website I have used semantic elements as well as bootstrap to show that I have the ability to build a more simple webiste that can be viewed by others.<i>
+<i>My portfolio is important. It is what shows others that I know how to do what I have become experienced with. I have a degree in Graphic and Web Design and that is what is being show in the portfolio that I have. In the website I have used semantic elements as well as bootstrap to show that I have the ability to build a website in a similar way to how I can help build others websites.<i>
 <hr>
 
 ## Licensing
