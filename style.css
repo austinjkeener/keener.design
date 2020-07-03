@@ -21,3 +21,18 @@ html, body {
     text-align: center;
     margin-bottom: 10px;
 }
+.colone {
+    left:100px;
+}
+.coltwo {
+    left: 250px;
+    top: 25px;
+}
+.colthree {
+    left:380px;
+    top: -10px;
+}
+.colfour {
+    left:500px;
+    top: 25px;
+}
