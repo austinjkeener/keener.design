@@ -5,7 +5,7 @@ By Austin Keener <br>
 ### 1. Usage <br>
 ### 2. License<br>
 
-link: https://austingraphicandweb.github.io/mobile-responsive-portfolio/
+link: https://austingraphicandweb.github.io/Austin_Keener_Portfolio_Website/
 <hr>
 
 ## Screenshot
