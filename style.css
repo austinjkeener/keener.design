@@ -23,6 +23,26 @@ html, body {
     margin-bottom: 10px;
 }
 
+#mainc {
+    width: 100%;
+    height:auto;
+    padding: 5px;
+}
+
+#ppic {
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.footer {
+    width: 100%; 
+    left: 0px; 
+    color:white; 
+    height: 50px; 
+}
+
 @media screen and (max-width:414px){
     .col-md-6 a img.img-fluid{
         display: block;
