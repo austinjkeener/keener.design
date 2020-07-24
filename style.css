@@ -26,15 +26,28 @@ html, body {
 #mainc {
     width: 100%;
     height:auto;
-    padding: 5px;
 }
 
-#ppic {
+.hero {
+    text-align:center;
+    margin:auto;
     width: 300px;
-    height: auto;
-    border: 5px solid black;
+    height:auto;
+}
+
+.subhero {
     margin: 10px;
 }
+
+#headshot {
+    width: 90%;
+    height:auto;
+}
+
+.contact-2 {
+    margin: auto;
+}
+
 
 .footer {
     width: 100%; 
@@ -42,6 +55,7 @@ html, body {
     color:white; 
     height: 50px; 
 }
+
 
 @media screen and (max-width:414px){
     .col-md-6 a img.img-fluid{
