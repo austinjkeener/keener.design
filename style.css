@@ -48,6 +48,11 @@ html, body {
     margin: auto;
 }
 
+.colcon {
+    margin: 100px auto;
+    text-align:center;
+}
+
 
 .footer {
     width: 100%; 
