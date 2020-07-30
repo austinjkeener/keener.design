@@ -74,4 +74,7 @@ html, body {
         display: block;
         margin: 0px auto !important;
     }
+    .fbrand {
+        display: none;
+    }
 }
