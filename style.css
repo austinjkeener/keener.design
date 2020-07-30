@@ -53,6 +53,13 @@ html, body {
     text-align:center;
 }
 
+.fbrand, .fimages {
+    padding-left:10px;
+}
+
+.footerimg {
+    padding-right: 5px;
+}
 
 .footer {
     width: 100%; 
