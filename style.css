@@ -77,4 +77,18 @@ html, body {
     .fbrand {
         display: none;
     }
+    .jglogo {
+        margin-top: 25px;
+    }
+    .recyclelogo {
+        margin-top: -5px;
+    }
+    .smlogo {
+        margin-top: -5px;
+    }
+    .cfoot {
+       position:fixed;
+       position:absolut;
+       bottom: 0px; 
+    }
 }
