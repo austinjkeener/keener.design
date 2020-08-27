@@ -70,6 +70,10 @@ html, body {
     height: 50px; 
 }
 
+.aboutme {
+    margin-bottom:50px;
+}
+
 
 @media screen and (max-width:414px){
     .col-md-6 a img.img-fluid{
