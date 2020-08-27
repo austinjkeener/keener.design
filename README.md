@@ -10,7 +10,7 @@ link: https://austingraphicandweb.github.io/Austin_Keener_Portfolio_Website/
 
 ## Screenshot
 
-![screenshot](./misc/screen-shot.png)
+![screenshot](./misc/logo.png)
 
 <hr>
 
