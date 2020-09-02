@@ -74,6 +74,10 @@ html, body {
     margin-bottom:50px;
 }
 
+.homehero {
+    border: 5px solid #808080;
+}
+
 
 @media screen and (max-width:414px){
     .col-md-6 a img.img-fluid{
