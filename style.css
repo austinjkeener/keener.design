@@ -4,8 +4,8 @@ html, body {
     margin:0px;
     background-color:#ec4d3f
 }
-p,h1,i {
-    color:#bebebe;
+p,h1,i,.fbrand {
+    color:darkgrey;
 }
 .wrapper {
     min-height: 100%;
@@ -82,7 +82,7 @@ p,h1,i {
 }
 
 .homehero {
-    border: 5px solid #bebebe;
+    border: 5px solid #000000;
 }
 
 .contentwrapper {
