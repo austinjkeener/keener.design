@@ -4,6 +4,9 @@ html, body {
     margin:0px;
     background-color:#ec4d3f
 }
+nav {
+    z-index: 100;
+}
 p,h1,i,.fbrand {
     color:darkgrey;
 }
