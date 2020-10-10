@@ -38,12 +38,13 @@ p,h1,i,.fbrand {
     float:left;
     text-align:center;
     margin: 10px;
-    width: 300px;
+    width: 320px;
     height:auto;
 }
 
 .subhero {
     width: 550px;
+    float:right;
 }
 
 #headshot {
