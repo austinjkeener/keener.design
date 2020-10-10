@@ -37,7 +37,7 @@ p,h1,i,.fbrand {
 .hero {
     float:left;
     text-align:center;
-    margin:30px auto;
+    margin: 10px;
     width: 300px;
     height:auto;
 }
