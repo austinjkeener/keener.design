@@ -2,13 +2,9 @@ html, body {
     width: 100%;
     height: 100%;
     margin:0px;
-    background-color:#ec4d3f
 }
 nav {
     z-index: 100;
-}
-p,h1,i,.fbrand {
-    color:darkgrey;
 }
 .wrapper {
     min-height: 100%;
