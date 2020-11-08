@@ -6,6 +6,9 @@ html, body {
 nav {
     z-index: 100;
 }
+.phome {
+    font-size:20px;
+}
 .wrapper {
     min-height: 100%;
 }
@@ -42,8 +45,10 @@ nav {
 }
 
 .subhero {
-    width: 550px;
+    width: 400px;
     float:right;
+    margin-right:100px;
+    margin-top: 10px;
 }
 
 #headshot {
