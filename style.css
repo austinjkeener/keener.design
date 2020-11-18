@@ -8,6 +8,10 @@ nav {
 }
 .phome {
     font-size:20px;
+    background-color:#ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .wrapper {
     min-height: 100%;
@@ -47,12 +51,12 @@ nav {
 .subhero {
     width: 400px;
     float:right;
-    margin-right:100px;
-    margin-top: 10px;
+    margin-right:110px;
+    margin-top: 80px;
 }
 
 #headshot {
-    width: 90%;
+    width: 115%;
     height:auto;
 }
 
@@ -84,10 +88,6 @@ nav {
 
 .aboutme {
     margin-bottom:50px;
-}
-
-.homehero {
-    border: 5px solid #000000;
 }
 
 .contentwrapper {
