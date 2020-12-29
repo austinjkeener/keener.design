@@ -14,26 +14,16 @@ nav {
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.wrapper {
+/* .wrapper {
   min-height: 100%;
 }
-.content-inside {
-  padding: 20px;
-  padding-bottom: 50px;
-}
-#container {
-  margin: 30px auto;
-}
-
-#gallery-row {
-  text-align: center;
-}
-
-#gallery-main {
+#header {
   text-align: center;
   margin-bottom: 10px;
 }
-
+#subheader {
+  text-align: center;
+} */
 #mainc {
   position: absolute;
   top: 50%;
