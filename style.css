@@ -80,12 +80,17 @@ nav {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
   color: #8a9da0;
   height: 50px;
+}
+
+.footerFixed {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        color: #8a9da0;
+        height: 50px;
 }
 
 .aboutme {
