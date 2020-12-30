@@ -3,16 +3,10 @@ body {
   width: 100%;
   height: 100%;
   margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 nav {
   z-index: 100;
-}
-.phome {
-  font-size: 20px;
-  background-color: #ffffff;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 10px;
 }
 .wrapper {
   min-height: 100%;
@@ -32,28 +26,6 @@ nav {
 #gallery-main {
   text-align: center;
   margin-bottom: 10px;
-}
-
-#mainc {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero {
-  float: left;
-  text-align: center;
-  margin: 10px;
-  width: 320px;
-  height: auto;
-}
-
-.subhero {
-  width: 400px;
-  float: right;
-  margin-right: 110px;
-  margin-top: 80px;
 }
 
 #headshot {
@@ -96,17 +68,70 @@ nav {
 .aboutme {
   margin-bottom: 50px;
 }
-
-.contentwrapper {
-  width: 900px;
-  margin: auto;
-}
-
-@media screen and (max-width: 414px) {
-  .col-md-6 a img.img-fluid {
-    display: block;
-    margin: 0px auto !important;
+@media screen and (max-width: 280px){
+  nav {
+    background-color:#293247;
+    height: 7%;
+    transition: .5s;
   }
+  nav>#hamburger{
+    padding:5px;
+  }
+  nav>#hamburger>#patty {
+    background-color:#fff;
+    width: 40px;
+    height: 5px;
+    margin: 5px;
+  }
+  nav>ul {
+    padding: 10%;
+    display:none;
+  }
+  nav>ul>li {
+    list-style-type: none;
+    display:none;
+  }
+  nav>ul>li>a {
+    color:#fff;
+    text-decoration:none;
+  }
+  nav>ul>li>a:visited {
+    color:white;
+    text-decoration:none;
+  }
+  #button {
+    color:#fff;
+    font-size:2rem;
+    float:right;
+    margin-right: 10%;
+    margin-top:10%;
+  };
+  .headshot {
+    border: 1px solid red;
+    padding: 10px;
+  }
+  .aboutme {
+    text-align:center;
+    padding: 5% 5% 0% 5%;
+  }
+  .contactme {
+    text-align:center;
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 320px){
+  
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 375px){
+  
+}
+@media screen and (max-width: 411px){
+  
+}
+@media screen and (max-width: 414px) {
   .fbrand {
     display: none;
   }
@@ -124,4 +149,13 @@ nav {
     position: absolute;
     bottom: 0px;
   }
+}
+@media screen and (max-width: 540px){
+  
+}
+@media screen and (max-width: 768px){
+  
+}
+@media screen and (max-width: 1024px){
+  
 }
