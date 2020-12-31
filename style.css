@@ -100,6 +100,7 @@ nav {
     border: .25rem solid #293247;
     margin-top: 5%;
     margin-left: 5%;
+    width: 45%;
   }
   #aboutme {
     margin-top: 5%;
@@ -112,6 +113,23 @@ nav {
     border: none;
     width: 7rem;
     height: 2rem;
+  }
+  #footer {
+    width: 100%;
+    height: 7%;
+    background-color:#293247;
+    bottom:0px;
+    position:absolute;
+  }
+  #linkedin,#instagram,#github {
+width: 1.6rem;
+height: 1.5rem;
+  }
+  #social {
+    text-align:center;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 320px){
