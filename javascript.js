@@ -9,7 +9,7 @@
     const patty = $("#patty").css("display", "none");
     const unorderedlist = $("#unorderedlist").css("display", "block");
     const listitem = $(".listitem").css("display", "block");
-    const button = $("#button").append("<p>X<p>")
+    const button = $("#button").css("display","block");
     //i want to append a giant x that will be used to toggle the state of the drop down menu when clicked
 
     //event listeners
