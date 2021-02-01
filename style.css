@@ -40,22 +40,9 @@ nav {
   padding-left: 10px;
 }
 
-.footerimg {
-  padding-right: 5px;
-}
-
 .footer {
   color: #8a9da0;
   height: 50px;
-}
-
-.footerFixed {
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        color: #8a9da0;
-        height: 50px;
 }
 @media screen and (max-width: 280px){
   nav {
@@ -121,6 +108,11 @@ nav {
     bottom:0px;
     position:absolute;
   }
+  #footerPortfolio {
+    width: 100%;
+    height: 7%;
+    background-color:#293247;
+  }
   #linkedin,#instagram,#github {
 width: 1.6rem;
 height: 1.5rem;
@@ -156,11 +148,6 @@ height: 1.5rem;
   }
   .smlogo {
     margin-top: -5px;
-  }
-  .cfoot {
-    position: fixed;
-    position: absolute;
-    bottom: 0px;
   }
 }
 @media screen and (max-width: 540px){

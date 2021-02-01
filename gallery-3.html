@@ -16,7 +16,20 @@
 
   <body>
     <!--Navigation menu-->
-    <nav>
+    <nav id="nav">
+      <div><p id="button" onClick="showTheBurger()">X</p></div>
+      <div id="hamburger" onClick="hideTheBurger()">
+        <div id="patty"></div>
+        <div id="patty"></div>
+        <div id="patty"></div>
+      </div>
+      <ul id="unorderedlist">
+        <li class="listitem"><a href="./index.html">Home</a></li>
+        <li class="listitem"><a href="./portfolio.html">Portfolio</a></li>
+        <li class="listitem"><a href="./contact.html">Contact</a></li>
+        <li class="listitem"><a href="./misc/public_resume.pdf">Resume</a></li>
+        <li class="listitem"><a href="./misc/designportfolio.pdf">Design</a></li>
+      </ul>
     </nav>
     <div class="wrapper">
       <div class="content-inside">
@@ -71,6 +84,14 @@
     </div>
     <!--Footer-->
     <footer>
+      <div id="footer">
+        <div id="social">
+                    <img id="linkedin" src="./misc/assets/Images/linkedin.png" alt="linkedin"/>
+        <img id="instagram" src="./misc/assets/Images/instagram.png" alt="instagram"/>
+        <img id="github" src="./misc/assets/Images/github.png" alt="github"/>
+        </div>
+
+      </div>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
