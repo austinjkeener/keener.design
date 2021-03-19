@@ -4,8 +4,37 @@ body {
   height: 100%;
   margin: 0px;
 }
+#logo {
+  display:inline;
+}
 nav {
-  z-index: 100;
+  background-color:#293247;
+  padding: 1rem;
+}
+nav>ul {
+  display:inline;
+}
+nav>ul>li {
+  list-style-type: none;
+  display:inline;
+  padding:.5rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+nav>ul>li>a {
+  color:#fff;
+  text-decoration:none;
+}
+nav>ul>li>a:visited {
+  color:white;
+  text-decoration:none;
+}
+#exit, #hamburger {
+  display:none;
+}
+#headshot {
+  width: 100px;
+  height: 100px;
 }
 .wrapper {
   min-height: 100%;
@@ -43,6 +72,18 @@ nav {
 .footer {
   color: #8a9da0;
   height: 50px;
+}
+#linkedin {
+  width: 100px;
+  height: 100px;
+}
+#instagram {
+  width: 100px;
+  height: 100px;
+}
+#github {
+  width: 100px;
+  height: 100px;
 }
 @media screen and (max-width: 280px){
   nav {
