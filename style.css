@@ -7,13 +7,6 @@ body {
 nav {
   z-index: 100;
 }
-.phome {
-  font-size: 20px;
-  background-color: #ffffff;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
 .wrapper {
   min-height: 100%;
 }
@@ -34,33 +27,6 @@ nav {
   margin-bottom: 10px;
 }
 
-#mainc {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero {
-  float: left;
-  text-align: center;
-  margin: 10px;
-  width: 320px;
-  height: auto;
-}
-
-.subhero {
-  width: 400px;
-  float: right;
-  margin-right: 110px;
-  margin-top: 80px;
-}
-
-#headshot {
-  width: 100%;
-  height: auto;
-}
-
 .contact-2 {
   margin: auto;
 }
@@ -69,44 +35,108 @@ nav {
   margin: 100px auto;
   text-align: center;
 }
-
 .fbrand,
 .fimages {
   padding-left: 10px;
-}
-
-.footerimg {
-  padding-right: 5px;
 }
 
 .footer {
   color: #8a9da0;
   height: 50px;
 }
-
-.footerFixed {
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        color: #8a9da0;
-        height: 50px;
-}
-
-.aboutme {
-  margin-bottom: 50px;
-}
-
-.contentwrapper {
-  width: 900px;
-  margin: auto;
-}
-
-@media screen and (max-width: 414px) {
-  .col-md-6 a img.img-fluid {
-    display: block;
-    margin: 0px auto !important;
+@media screen and (max-width: 280px){
+  nav {
+    background-color:#293247;
+    height: 7%;
+    transition: .5s;
   }
+  nav>#hamburger{
+    padding:5px;
+  }
+  nav>#hamburger>#patty {
+    background-color:#fff;
+    width: 40px;
+    height: 5px;
+    margin: 5px;
+  }
+  nav>ul {
+    padding: 10%;
+    display:none;
+  }
+  nav>ul>li {
+    list-style-type: none;
+    display:none;
+  }
+  nav>ul>li>a {
+    color:#fff;
+    text-decoration:none;
+  }
+  nav>ul>li>a:visited {
+    color:white;
+    text-decoration:none;
+  }
+  #button {
+    color:#fff;
+    font-size:1.25rem;
+    float:right;
+    margin-right: 10%;
+    margin-top:10%;
+    display:none;
+  }
+  #headshot {
+    border: .25rem solid #293247;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 45%;
+  }
+  #aboutme {
+    margin-top: 5%;
+    padding: 0% 5% 0% 5%;
+  }
+  #contactme {
+    margin-left: 5%;
+    color: #fff;
+    background-color:#293247;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+  }
+  #footer {
+    width: 100%;
+    height: 7%;
+    background-color:#293247;
+    bottom:0px;
+    position:absolute;
+  }
+  #footerPortfolio {
+    width: 100%;
+    height: 7%;
+    background-color:#293247;
+  }
+  #linkedin,#instagram,#github {
+width: 1.6rem;
+height: 1.5rem;
+  }
+  #social {
+    text-align:center;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 320px){
+  
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 375px){
+  
+}
+@media screen and (max-width: 411px){
+  
+}
+@media screen and (max-width: 414px) {
   .fbrand {
     display: none;
   }
@@ -119,9 +149,13 @@ nav {
   .smlogo {
     margin-top: -5px;
   }
-  .cfoot {
-    position: fixed;
-    position: absolute;
-    bottom: 0px;
-  }
+}
+@media screen and (max-width: 540px){
+  
+}
+@media screen and (max-width: 768px){
+  
+}
+@media screen and (max-width: 1024px){
+  
 }

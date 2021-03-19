@@ -16,54 +16,20 @@
 
   <body>
     <!--Navigation menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html" target="_blank"
-        ><img
-          src="./misc/logo.png"
-          href="/index.html"
-          alt="logo"
-          width="20px"
-          height="20px"
-        />Austin James Keener</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="misc/public_resume.pdf" target="_blank"
-              >Resume</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="./misc/designportfolio.pdf"
-              target="_blank"
-              >Design</a
-            >
-          </li>
-        </ul>
+    <nav id="nav">
+      <div><p id="button" onClick="showTheBurger()">X</p></div>
+      <div id="hamburger" onClick="hideTheBurger()">
+        <div id="patty"></div>
+        <div id="patty"></div>
+        <div id="patty"></div>
       </div>
+      <ul id="unorderedlist">
+        <li class="listitem"><a href="./index.html">Home</a></li>
+        <li class="listitem"><a href="./portfolio.html">Portfolio</a></li>
+        <li class="listitem"><a href="./contact.html">Contact</a></li>
+        <li class="listitem"><a href="./misc/public_resume.pdf">Resume</a></li>
+        <li class="listitem"><a href="./misc/designportfolio.pdf">Design</a></li>
+      </ul>
     </nav>
     <div class="wrapper">
       <div class="content-inside">
@@ -122,37 +88,14 @@
       </div>
     </div>
     <!--Footer-->
-    <footer class="navbar navbar-dark bg-dark footerFixed">
-      <div class="row">
-        <div class="fbrand">Austin Graphic and Web 2020 copyright &copy;</div>
-        <div class="fimages">
-          <a href="https://github.com/austingraphicandweb" target="_blank"
-            ><img
-              src="./misc/assets/Images/Octocat.png"
-              alt="Github"
-              width="30px"
-              height="25px"
-              class="footerimg octocat"
-          /></a>
-          <a href="https://www.linkedin.com/in/austin-keener" target="_blank"
-            ><img
-              src="./misc/assets/Images/LI-In-Bug.png"
-              alt="LinkedIn"
-              width="35px"
-              height="25px"
-              class="footerimg"
-          /></a>
-          <a
-            href="https://www.instagram.com/austingraphicandweb"
-            target="_blank"
-            ><img
-              src="./misc/assets/Images/glyph-logo_May2016.png"
-              alt="Instagram"
-              width="30px"
-              height="25px"
-              class="footerimg"
-          /></a>
+    <footer>
+      <div id="footer">
+        <div id="social">
+                    <img id="linkedin" src="./misc/assets/Images/linkedin.png" alt="linkedin"/>
+        <img id="instagram" src="./misc/assets/Images/instagram.png" alt="instagram"/>
+        <img id="github" src="./misc/assets/Images/github.png" alt="github"/>
         </div>
+
       </div>
     </footer>
     <script
